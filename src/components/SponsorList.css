@@ -1,0 +1,19 @@
+th[data-key="campaigns"],
+th[data-key="prospects"],
+.campaigns,
+.prospects {
+  text-align: center;
+}
+
+span > p {
+  margin: 0;
+}
+
+span > footer {
+  font-size: 0.7em;
+  color: #aaa;
+}
+
+td img {
+  max-height: 15px;
+}

@@ -1,0 +1,42 @@
+.sponsor-view-detail-view {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.sponsor-view-detail-view > section {
+  padding: 10px;
+  width: 100%;
+}
+
+.sponsor-view-detail-view > section p {
+  padding: 15px;
+}
+
+.sponsor-view-detail-view > section h4 {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sponsor-view-thank-you-image {
+  display: flex;
+}
+
+.sponsor-view-thank-you-image > img {
+  margin-right: 20px;
+}
+
+.sponsor-view-thank-you-image > a {
+  text-decoration: none;
+}
+
+.sponsor-view-button-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}

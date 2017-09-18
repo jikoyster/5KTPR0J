@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "mocha": true
+  },
+  "plugins": [
+    "react",
+    "flowtype",
+    "import"
+  ],
+  extends: [
+    "airbnb-base",
+    "plugin:flowtype/recommended",
+  ],
+  rules: {
+    "react/jsx-uses-react": "error",
+    "camelcase": "off",
+    "react/jsx-uses-vars": "error",
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "comma-dangle": ["error", "always-multiline"],
+    "global-require": "off",
+    "quotes": ["warn", "single"],
+    "strict": "off",
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": "warn",
+    "semi": ["error", "never"],
+  }
+}

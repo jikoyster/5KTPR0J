@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+{
+"version": 3,
+"mappings": "AAAA,GAAG;EACF,KAAK,EAAE,IAAI",
+"sources": ["Header.sass"],
+"names": [],
+"file": "Header.css"
+=======
+{
+"version": 3,
+"mappings": "AAAA,GAAG;EACF,KAAK,EAAE,IAAI",
+"sources": ["Header.sass"],
+"names": [],
+"file": "Header.css"
+>>>>>>> 438bd4946609921deb4b423f58a3705da32afefe
+}

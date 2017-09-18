@@ -1,0 +1,105 @@
+.sponsor-view-profile {
+  display: flex;
+  margin: 20px 0 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.sponsor-view-section-headers {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sponsor-view-overview > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 700px;
+  height: 150px;
+  border: 1px solid #f1f1f1;
+}
+
+.sponsor-view-contact-details {
+  display: flex;
+  margin-right: 100px;
+}
+
+.sponsor-view-contact-image > span {
+  margin-left: 20px;
+}
+
+.sponsor-view-company-img {
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+  width: auto;
+  height: auto;
+}
+
+.sponsor-view-contact-name {
+  font-weight: 600;
+}
+
+.sponsor-view-campaigns {
+  padding-bottom: 20px;
+}
+
+.sponsor-view-campaigns-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #f1f1f1;
+}
+
+.sponsor-view-delete-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid #f1f1f1;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin: 10px;
+}
+
+.sponsor-view-delete-link {
+  color: #969595;
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.sponsor-view-delete-link:hover {
+  color: #c3c2c2;
+  text-decoration: none;
+}
+
+/**/
+
+#lbl-logoupload{
+  font-size: .95em;
+  color: #241858;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#lbl-logoupload:hover{
+  color: #877CB0;
+  text-decoration: none;
+}
+
+#lbl-logoupload input{
+  display: none;
+}
+
+.imgPreview img{
+  max-width: 150px;
+}

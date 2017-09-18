@@ -1,0 +1,30 @@
+image: spingo/node-ci
+
+# before_script:
+
+cache:
+  paths:
+  - node_modules/
+
+build:
+  stage: build
+  only:
+    - tags
+    - /^v\d+\.\d+\.\d+(-.*)?$/
+  script:
+    # Install dependencies
+    - yarn install
+    - yarn run build
+  artifacts:
+    paths:
+      - build/
+
+deploy:
+  stage: deploy
+  only:
+    - tags
+    - /^v\d+\.\d+\.\d+(-.*)?$/
+  dependencies:
+    - build
+  script:
+    - aws s3 cp ./build/ s3://alpha.aktify.co --recursive

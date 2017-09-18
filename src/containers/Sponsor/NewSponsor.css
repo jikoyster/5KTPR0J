@@ -1,0 +1,98 @@
+.new-sponsor-wrapper {
+  margin-top: 3px;
+}
+
+.sponsor-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.sponsor-btn:focus {
+  outline: 0;
+}
+
+.sponsor-btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.sponsor-btn-new {
+  background-color: #ff3300;
+  color: #fff;
+}
+
+.sponsor-btn-new:active {
+  background-color: #8b1999;
+}
+
+.modal-header {
+  padding: 10px;
+  text-align: center;
+  border-bottom: none;
+  background-color: #f8f8f8;
+}
+
+.modal-header .close {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+button.close,
+button.close:hover {
+  line-height: 0.6;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  outline: 0;
+}
+
+fieldset.form-group {
+  margin-bottom: 40px;
+}
+
+.modal-body button {
+  width: 100px;
+}
+
+.sponsor-btn-submit {
+  margin-right: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+.sponsor-btn-submit:disabled {
+  background-color: #d3d3d3;
+  color: #000;
+}
+
+.sponsor-btn-submit:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.sponsor-btn-cancel {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #00ccff;
+}
+
+.sponsor-btn-cancel:active {
+  color: #006b84;
+}
